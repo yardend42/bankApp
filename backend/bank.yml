@@ -5,9 +5,9 @@ version: '3.8'
 #which services we going to use: mysql(8) phpMyAdmin(lateset)
 #latest -> last version that was published
 services:
-  carsapi:
+  bank:
     #our image
-    image: mindalizeev/cars-api:latest
+    image: bank
     #our port
     ports: 
       - "3000:8080"
